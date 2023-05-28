@@ -47,7 +47,7 @@ Here is an example.
 python BHN.py --dataset cifar10 --noise_rate 0.4 --noise_type instance --leave_ratio 0.4 --net resnet18 --n_epochs 200 --l_train_second_ratio 1.0 --score_evaluation
 ```
 
-- Detect corrupted labels on the synthetic CIFAR-10 with the Inst. 0.4 noise using final_model.tar in \$INPUT_DIR\$, where \$INPUT_DIR\$ is the directory of final_model.tar. 
+- Detect corrupted labels on the synthetic CIFAR-10 with the Inst. 0.4 noise using final_model.tar in `$INPUT_DIR$`, where `$INPUT_DIR$` is the directory of final_model.tar. 
 
 ```bash
 python BHN.py --dataset cifar10 --net resnet18 --noise_type instance --leave_ratio 0.4 --input_dir $INPUT_DIR$ --model_file final_model.tar --load_model_direct_score --score_evaluation --alpha 0.1
@@ -63,7 +63,7 @@ Here is an example.
 python BHN.py --dataset cifar10 --noise_rate 0.4 --noise_type instance --leave_ratio 0.4 --net resnet18 --n_epochs 200 --l_train_second_ratio 1.0 --lr 0.1 --batch_size 128 --weight_decay 5e-4 --momentum 0.9 --input_dir $INPUT_DIR$ --labeledsetpth sel_clean.txt --retrain_selectedset --lr 0.1 --batch_size 128 --weight_decay 5e-4 --momentum 0.9 
 ```
 
-, where \$INPUT_ DIR\$ is the directory where the file that stores the selected examples lies in.
+, where `$INPUT_ DIR$` is the directory where the file that stores the selected examples lies in.
 
 
 
