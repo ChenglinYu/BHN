@@ -30,8 +30,8 @@ You can download the python packages manually or run `pip install -r requirement
     ├── nine_layer_cnn.py
     ├── resnet.py  
 ├── pvalue
-		├── __init__.py
-		├── methods.py # Code for calculate p-value
+    ├── __init__.py
+    ├── methods.py # Code for calculate p-value
 ├── BHN.py # Code for method BHN
 ├── utility.py # Code for customized utilities (setting gpu, setting outdir, etc.)
 └── utils_experiments.py # Code for evaluation
