@@ -21,8 +21,8 @@ You can download the python packages manually or run `pip install -r requirement
 ```
 .
 ├── data  
-		├── __init__.py
-		├── dataloader_clothing1M_BH.py # Code for load Clothing1M
+    ├── __init__.py
+    ├── dataloader_clothing1M_BH.py # Code for load Clothing1M
     ├── utils.py        # Code for noisify clean dataset
 ├── models                # Code for defining network architectures
     ├── __init__.py
@@ -63,7 +63,7 @@ Here is an example.
 python BHN.py --dataset cifar10 --noise_rate 0.4 --noise_type instance --leave_ratio 0.4 --net resnet18 --n_epochs 200 --l_train_second_ratio 1.0 --lr 0.1 --batch_size 128 --weight_decay 5e-4 --momentum 0.9 --input_dir $INPUT_DIR$ --labeledsetpth sel_clean.txt --retrain_selectedset --lr 0.1 --batch_size 128 --weight_decay 5e-4 --momentum 0.9 
 ```
 
-, where \$INPUT_DIR\$ is the directory where the file that stores the selected examples lies in.
+, where \$INPUT_ DIR\$ is the directory where the file that stores the selected examples lies in.
 
 
 
